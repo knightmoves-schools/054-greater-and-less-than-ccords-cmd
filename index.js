@@ -6,7 +6,7 @@ function oldEnough(age) {
   };
 };
 function underAge(age) {
-  if (age < 17) {
+  if (age < 18) {
     return document.getElementById('result').innerHTML = 'under age';
   }else{
     document.getElementById('result').innerHTML = 'not under age';
